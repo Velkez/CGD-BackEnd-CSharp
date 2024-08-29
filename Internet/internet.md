@@ -7,4 +7,6 @@ Los protocolos son elementos que permiten la unión de la red, y consigo, la tra
 En el parrafo anterior se describio mas o menos como es el funcionamiento de internet, pero para profundizar esta pregunta, tenemos que ver dos conceptos, los paquetes, y el ya antes mencionado, protocolo.
 
 ### Paquetes.
-Los paquetes son pequeños fragmentos de mensajes mas grandes, estos fragmenos contienen datos e información de estos datos, los cuales son conocidos como "_cabecera_"
+Los paquetes son pequeños fragmentos de mensajes mas grandes, estos fragmenos contienen datos e información de estos datos, los cuales son conocidos como "_cabecera_", y este va al principio del paquete para que la maquina que lo recibe pueda entender el uso de ese paquete, practicamente como una especie de manual de instrucciones.
+
+El envio de datos seria mas o menos de la siguiente forma. Los datos se dividen en paquetes, luego son traducidos en bits, se enrutan a su destino por distintos dispositivos de red, [enrutadores](https://www.cloudflare.com/learning/network-layer/what-is-a-router/), y [conmutadores](https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/). Al llegar los paquetes a su destino, el dispositivo que los recibio procede a ensamblar los paquetes en orden y luego usa o muestra el dato recibito.
