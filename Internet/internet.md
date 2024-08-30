@@ -18,4 +18,37 @@ Ya se hablo sobre los protocolos antes, pero en esta pequeña sección vamos men
 
 Los protocolos son como reglas o estandares, una de las dificultades de los creadores de Internet fue que ordenadores con distintos hardware y software pudiesen conectarse, y los protocolos solucionaron este problema. Estos estandarizan determinadas acciones y dan formato a los datos para que dos o mas dispositivos se puedan comunicar efectivamente entre si.
 
-Para este punto me base en el articulo de CloudFlare llamado [¿Cómo funciona internet?](https://www.cloudflare.com/es-es/learning/network-layer/how-does-the-internet-work/#:~:text=Los%20ordenadores%20se%20conectan%20entre%20s%C3%AD%20y%20a%20Internet%20mediante%20cables,luego%20interpreta%20el%20ordenador%20receptor.). Recomiendo su lectura, explica de forma mas profunda sobre lo hablado en esta sección.
+
+Para este punto me base en el articulo de CloudFlare llamado [¿Cómo funciona internet?](https://www.cloudflare.com/es-es/learning/network-layer/how-does-the-internet-work/#:~:text=Los%20ordenadores%20se%20conectan%20entre%20s%C3%AD%20y%20a%20Internet%20mediante%20cables,luego%20interpreta%20el%20ordenador%20receptor.) Recomiendo su lectura, explica de forma mas profunda sobre lo hablado en esta sección.
+
+## ¿Qué es HTTP?
+Estes es un protocolo de transferencia de hipertexto, el cual se utiliza para cargar las paginas web mediante enlaces de hipertexto. Este es un protocolo de capa de aplicación diseñado para comprartir información entre los dispositivos conectados en la red. HTTP se ejecuta sobre otras capas del conjunto de protocolos orientados a la red. Este practicamente funciona cuando una maquina cliente solicita datos de un servidor, y este este responde enviando el dato solicitado.
+
+### Solicitud HTTP.
+esta es la manera en la que una herramienta de comunicación a internet, como los navegadores web, piden información para el cargue de paginas web.
+
+Estos llevan una serie de datos codificados los cuales tiene información de la solicitud. Usualmente, una solusitud http contiene los siguiente datos:
+  - Tipo de versión HTTP: existen varias como: 
+    - HTTP/0.9 (protocolo de una linea) .
+    - HTTP/1.0 (desarrollo de flexibilidad y expación).
+    - HTTP/1.1 (protocolo estandar).
+    - HTTP/2 (protocolo con mayor rendimiento).
+  - Una URL: dirección que es dada a un recurso unico en la web.
+  - Un metodo HTTP: es la acción que la solicitud HTTP espera del servidor consultado.
+  - Encabezados de la solicitud HTTP: contienen información de texto almacenada en pares ***clave-valor***. Estos contienen información basica que tipo de navegador usa el cliente y qué datos solicita.
+  - Cuerpo de solicitud HTTP: este contiene toda la información que se envia al servidor web, como correo, contraseña u otro dato enviado por medio de un formulario.
+
+### Respuesta HTTP.
+Es lo que el cliente web (como navegadores, por ejemplo) reciben tras su solicitud HTTP en al servidor, estas respuestas contienen la información basada en lo que se pidio anteriormente.
+
+Una respuesta HTTP comúnmente contiene lo siguiente:
+  - Codigo de estado HTTP: son codigos de 3 digitos que se usan con mayor frecuenciapara indicar si una solicitud HTTP fue completada con exito o hubo algun problema. Estos se dividen en 5 bloques: 
+    - 100... (informativo).
+    - 200... (Exito).
+    - 300... (Redirección).
+    - 400... Errores de cliente.
+    - 500... Error de servidor.
+  - Encabezados de respuesta HTTP: esta es informacion importante, como idioma, formato de los datos que se envian en el cuerpo de la respuesta.
+  - Cuerpo de respuesta HTTP: Son los datos HTML que un navegador web convertirá en una pagina web, practicamente.
+
+Al igual que el punto anterior, me base en un articulo publicado por la empresa CloudFlare llamado _[¿Qué es HTTP?](https://www.cloudflare.com/es-es/learning/ddos/glossary/hypertext-transfer-protocol-http/)_ Tambien recomiendo su lectura, incluso podran ver que varios fragmentos de este texto son de esa pagina web, pero es porque no me supe explicar con mis palabras :trollface:. Aparte explica de forma mas detallada todo lo que quise decir acá.
