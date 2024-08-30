@@ -10,7 +10,9 @@ Este Roadmap ira enfocado con el lenguaje de programación ***C#*** y será publ
   - [¿Como funciona Internet?](Internet/internet.md/#cómo-funciona-internet)
     - [Paquetes.](Internet/internet.md/#paquetes)
     - [Protocolo.](Internet/internet.md/#protocolo)
-  - ¿Qué es HTTP?
+  - [¿Qué es HTTP?](Internet/internet.md/#qué-es-http)
+    - [Solicitud HTTP.](Internet/internet.md/#solicitud-http)
+    - [Respuesta HTTP.](Internet/internet.md/#respuesta-http)
   - ¿Qué es un dominio?
   - ¿Qué es un hosting?
   - ¿Qué es DNS y cómo trabaja?
