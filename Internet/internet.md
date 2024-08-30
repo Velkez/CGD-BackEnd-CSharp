@@ -19,7 +19,7 @@ Ya se hablo sobre los protocolos antes, pero en esta pequeña sección vamos men
 Los protocolos son como reglas o estandares, una de las dificultades de los creadores de Internet fue que ordenadores con distintos hardware y software pudiesen conectarse, y los protocolos solucionaron este problema. Estos estandarizan determinadas acciones y dan formato a los datos para que dos o mas dispositivos se puedan comunicar efectivamente entre si.
 
 
-Para este punto me base en el articulo de CloudFlare llamado [¿Cómo funciona internet?](https://www.cloudflare.com/es-es/learning/network-layer/how-does-the-internet-work/#:~:text=Los%20ordenadores%20se%20conectan%20entre%20s%C3%AD%20y%20a%20Internet%20mediante%20cables,luego%20interpreta%20el%20ordenador%20receptor.) Recomiendo su lectura, explica de forma mas profunda sobre lo hablado en esta sección.
+Para este punto me base en el articulo de CloudFlare llamado _[¿Cómo funciona internet?](https://www.cloudflare.com/es-es/learning/network-layer/how-does-the-internet-work/#:~:text=Los%20ordenadores%20se%20conectan%20entre%20s%C3%AD%20y%20a%20Internet%20mediante%20cables,luego%20interpreta%20el%20ordenador%20receptor.)_ Recomiendo su lectura, explica de forma mas profunda sobre lo hablado en esta sección.
 
 ## ¿Qué es HTTP?
 Estes es un protocolo de transferencia de hipertexto, el cual se utiliza para cargar las paginas web mediante enlaces de hipertexto. Este es un protocolo de capa de aplicación diseñado para comprartir información entre los dispositivos conectados en la red. HTTP se ejecuta sobre otras capas del conjunto de protocolos orientados a la red. Este practicamente funciona cuando una maquina cliente solicita datos de un servidor, y este este responde enviando el dato solicitado.
